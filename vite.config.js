@@ -5,9 +5,6 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   base: '/time-tracking-dashboard-frontendchallenge/',
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/time-tracking-dashboard-frontendchallenge/'
-    : '/',
   css: {
     preprocessorOptions: {
       scss: {
